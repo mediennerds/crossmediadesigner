@@ -13,5 +13,51 @@ ul li a{
     font-size: 1.1rem;
 }
 
+/* ####### Header ########### */
+
+header{
+    height: 20vh;
+    background: tomato;
+}
+
+.innert-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.navi-top{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 60%;
+    
+
+}
+
+.navi-top li a{
+    display: block;
+    height: 120px;
+    width: auto;
+    font-size: 1.3rem;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: white;
+}
+
+.house{
+    font-size: 1.4rem;
+    padding-right: 0.8rem;
+}
+
+.house:hover{
+    color: yellow;
+}
+
+.navi-top li a:hover{
+    color: lightgrey;
+}
 
 
